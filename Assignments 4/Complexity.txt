@@ -1,0 +1,29 @@
+Node* find(Node* cur, int data);
+- complexity: O(n) với n là số node của cây, vì hàm này ở trường hợp xấu nhất sẽ duyệt qua mọi phần tử của cây
+
+bool insert(int father, int data);
+- tương tự với hàm find, hàm insert có độ phức tạp là O(n) vì trường hợp xấu nhất là duyệt mọi phần tử của cây, còn trường hợp tốt nhất là cây chưa có gốc
+
+remove(int data);
+- hàm remove có độ phức tạp trung bình là O(n) nhưng trường hợp tốt nhất là đối với cây cân bằng, độ phức tạp khi đó của nó là O(logn)
+
+void preorder();
+- cả hàm preorder,postorder và inorder đều có độ phức tạp là O(n) với n là tổng số nút trong cây
+
+bool isBinaryTree();
+- độ phức tạp của hàm này là O(n) với n là tổng số node trong cây
+
+int height();
+- độ phức tạp của hàm này là O(n) với n là tổng số node trong cây
+
+int countDepth(int data);
+- độ phức tạp đồng thời là O(n) vì mỗi lần ghé thăm một node, đều có cùng một lượng hằng số các thao tác tiếp theo và ghé tất cả các node
+
+int numOfLeaves();
+- trường hợp tốt nhất của hàm này là O(1), khi cây rỗng; xấu nhất là O(n)
+
+int findMax()
+- trường hợp tốt nhất của hàm này là O(1), khi cây chỉ có một node; xấu nhất là O(n)
+
+int findMaxChild()
+- trường hợp tốt nhất của hàm này là O(1), khi cây chỉ chứa 1 node duy nhất; xấu nhất là O(n)
