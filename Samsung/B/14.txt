@@ -1,0 +1,3 @@
+Gọi V là số đỉnh của đồ thị, ta biết rằng để tạo thành chu trình V cần không nhỏ hơn 3
+** Khi V = 3: Với 3 đỉnh, chúng ta có thể tạo 2 đồ thị có hướng phi chu trình
+** Khi V > 3: Số đồ thị có hướng phi chu trình là 2^(V*(V-1)/2) - 2^(V-1)
