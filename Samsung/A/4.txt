@@ -1,0 +1,22 @@
+Chứng minh: G là đồ thị lưỡng phân khi và chỉ khi G không tồn tại chu trình lẻ
+
+* Chiều thuận:
+- G chia thành 2 phần, giả sử tồn tại chu trình nào đó đi qua đỉnh u. Khi đó bậc của u là số chẵn và tổng số cạnh của chu trình là số cạnh kề với các đỉnh thuộc hai tập U và V, nên chu trình có độ dài chẵn.
+
+* Chiều nghịch:
+Giả sử G liên thông, chọn một đỉnh u bất kì, với mỗi đỉnh v ∈ G luôn tồn tại một đường đi từ u đến v. Nếu độ dài đường đi này là chẵn, ta cho v vào tập U; ngược lại, cho v vào tập V.
+Để thỏa mãn tính chất của đồ thị phân đôi, ta cần chứng minh:
+- Có thể xây dựng theo điều kiện trên (1)
+- Không có cạnh nối 2 đỉnh trong U (2)
+- không có cạnh nối 2 đỉnh trong V (3)
+
+Chứng minh (1):
+- Giả sử giữa u và v có 2 đường đi, một đường chẵn và một đường lẻ. Khi đó, điều này mâu thuẫn với chứng minh chiều thuận, tức tồn tại chu trình lẻ.
+
+Chứng minh (2):
+- Giả sử tồn tại cạnh (x, y) ∈ V. Khi đó, theo như giả thiết, x và y cùng ∈ V nên ux và uy lẻ. Do cạnh xy là cạnh đơn nên chu trình uxy lẻ. Mâu thuẫn với giả thiết.
+
+Chứng minh (3): Tương tự với chứng minh (2)
+
+
+=> ĐPCM

@@ -1,0 +1,8 @@
+#Đề bài: Giải thích vì sao thuật toán sau không đảm bảo cho kết quả là một thứ tự tô pô: Chạy
+BFS, đánh dấu mỗi đỉnh theo khoảng cách tăng dần tới đỉnh nguồn của nó.
+
+- Một cách đơn giản nhất, giả sử đề bài như sau
+4 -> 2 -> 3 -> 5 -> 1
+4 -> 1
+
+- Nếu ta làm như thuật toán trong đề bài, đỉnh 1 sẽ ở trước đỉnh 5 vì ta duyệt đỉnh 1 trước (BFS) và đỉnh 1 có khoảng cách tới đỉnh 4 nhỏ hơn. Nhưng nếu như vậy, ta đã sai yêu cầu đỉnh 5 phải nằm trước đỉnh 1.

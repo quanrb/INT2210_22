@@ -1,0 +1,7 @@
+**** Chứng minh có 2^V^2 đồ thị có hướng với V đỉnh mà không có cạnh song song
+
+- Ta biểu diễn đồ thị bằng ma trận kề A, trong đó A[i][j] = 1 nếu có cạnh từ i đến j và bằng 0 nếu ngược lại.
+- Với mỗi cạnh, ta có 2 cách chọn hướng: i đến j hoặc ngược lại
+- Do đó, có tổng cộng 2^V^2 cách chọn hướng cho tất cả các đỉnh, tức là tồn tại 2^V^2 đồ thị có hướng thỏa mãn đề bài
+
+=> ĐPCM

@@ -1,0 +1,3 @@
+- Số cây khác nhau trên đồ thị đầy đủ có V đỉnh là V^(V-2)
+- Số cách chọn E cạnh từ V-1 cạnh của đồ thị đầy đủ là C(V-1, E) - tổ hợp E phần tử từ V-1 phần tử
+- Do đó, kết quả là V^(V-2) * C(V-1, E)

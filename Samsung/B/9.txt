@@ -1,0 +1,12 @@
+Hãy chứng minh rằng một đồ thị có hướng G có một chu trình Euler khi và chỉ khi
+G liên thông và mỗi đỉnh đều có bậc ra bằng bậc vào.
+
+
+* Chiều thuận:
+- Vì G có chu trình Euler, nên luôn tồn tại đường đi giữa một cặp đỉnh bất kỳ trong G -> Liên thông
+- Vì G có chu trình Euler, không có đỉnh nào vào mà không ra hoặc ra mà không vào -> Mỗi đỉnh đều có bậc ra bằng bậc vào
+
+* Chiều nghịch:
+- Nếu mọi đỉnh của G có bậc vào và bậc ra bằng nhau, ta có thể bắt đầu từ một đỉnh bất kỳ và đi theo một chu trình qua tất cả các cạnh. Mỗi khi ta đi qua một cạnh, ta có thể xóa nó khỏi đồ thị mà không làm mất tính liên thông.
+
+=> ĐPCM

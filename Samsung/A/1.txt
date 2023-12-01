@@ -1,0 +1,3 @@
+0-1 0-2 0-3 1-3 1-4 2-5 2-9 3-6 4-7 4-8 5-8 5-9 6-7 6-9 7-8
+- dễ thấy đỉnh 0 có bậc lẻ (3) nên không tồn tại chu trình Euler
+- Ta thấy 

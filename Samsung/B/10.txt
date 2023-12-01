@@ -1,0 +1,11 @@
+**** Hãy mô tả một thuật toán thời gian tuyến tính tính thành phần liên thông mạnh chứa một đỉnh v cho trước
+
+Thuật toán Kosaraju:
+B1: Tìm đỉnh v cho trước trong đồ thị
+B2: DFS từ đỉnh nguồn v và đánh dấu các đỉnh đã thăm
+B3: Đảo hướng tất cả các cạnh của đồ thị có hướng ban đầu (tạo thành đồ thị transpose)
+B4: Tiếp tục DFS trên đồ thị chuyển hướng với đỉnh nguồn là v. Các đỉnh mà DFS thăm được sẽ tạo thành một thành phần liên thông mạnh.
+
+
+**** Dựa trên thuật toán đó, hãy mô tả một thuật toán thời gian bậc hai đơn giản để tính các thành phần liên thông mạnh của một đồ thị có hướng
+- Ta chỉ cần thực hiện thuật toán Kosaraju trên mỗi đỉnh v của đồ thị, từ đó tìm được tất cả các thành phần liên thông mạnh của đồ thị có hướng.

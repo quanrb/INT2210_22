@@ -1,0 +1,11 @@
+Giả sử G là một đồ thị không có đỉnh khớp. Ta sẽ chứng minh rằng G là một đồ thị biconnected.
+
+* G không có đỉnh khớp:
+
+Nếu G không có đỉnh chặt, nghĩa là không có đỉnh nào khi bị loại bỏ làm cho đồ thị trở nên không liên thông. Do đó, G là một đồ thị liên thông.
+
+* G là một đồ thị biconnected:
+
+Nếu G không có đỉnh khớp, khi ta loại bỏ bất kỳ đỉnh nào, đồ thị vẫn là một đồ thị liên thông. Ngược lại, nếu G tồn tại đỉnh khớp, đỉnh khớp đó phải nằm trên đường giao giữa hai đỉnh nào đó => Mâu thuẫn. Đồ thị không liên thông chỉ khi ta loại bỏ tất cả các đỉnh.
+
+=> ĐPCM
