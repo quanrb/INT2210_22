@@ -1,0 +1,8 @@
+***Prim
+- Bắt đầu từ một đỉnh bất kỳ: Thay vì bắt buộc bắt đầu từ đỉnh 0 (nguồn), ta có thể bắt đầu từ bất kỳ đỉnh nào và mở rộng rừng bao trùm từ đó.
+- Nếu đồ thị có nhiều thành phần liên thông, ta áp dụng thuật toán Prim cho từng thành phần liên thông riêng biệt để tìm rừng bao trùm của chúng.
+
+***Kruskal
+- Như trong Prim, chúng ta có thể xử lý từng thành phần liên thông một cách độc lập để tìm rừng bao trùm của từng thành phần.
+- Trước khi bắt đầu thuật toán Kruskal, sắp xếp các cạnh của đồ thị theo trọng số tăng dần hoặc giảm dần.
+- Trong quá trình thêm cạnh vào rừng bao trùm, kiểm tra xem liệu cạnh đó có tạo thành một chu trình hay không. Nếu tạo thành chu trình, bỏ qua cạnh đó và chuyển sang cạnh tiếp theo.
